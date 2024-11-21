@@ -1,0 +1,41 @@
+/* Blog edit and create blog css */
+
+
+.changeBlogPg {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:#DCDCDC
+}
+.header {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .date {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.para {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #020202;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #6c6c6c;
+}
+
+
+

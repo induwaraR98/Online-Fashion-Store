@@ -1,0 +1,409 @@
+/*header and footer css*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #02699C;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+nav ul li a{
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: #252728;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #010914;
+    opacity: 1;
+}
+
+
+p{
+    color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+     
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #257b43;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+  }
+  
+.btn:hover{
+    padding: 12px 40px;
+    background: #eb4b16;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+.header .row{
+    margin-top:  70px;
+  }
+
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width:25%;
+    padding: 0 40px;
+}
+
+.footer-col h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h3::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footerbtn{
+    display: inline-block;
+    background: #2372a0;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.5s;
+  }
+  
+.footerbtn:hover{
+    background: #2359a0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#subcribeEmail{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(152, 177, 198);
+    color: #090a0a;
+}
+
+/*responsive footer*/
+@media(max-width: 767px){
+    .footer-col{
+        width: 10%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+.copyright{
+    margin-top: 20px;
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.socialMediaIcons a{
+    padding: 3px;
+    color: #8408e2;
+    opacity: 0.4;
+}
+
+.socialMediaIcons a i{
+    font-size: 2em;
+}
+
+.socialMediaIcons a:hover{
+    color: #a344ec;
+    opacity: 1;
+    
+}
+
+
+/*End of the header and footer*/
+
+
+
+/*Form style begine*/
+
+
+
+.container2{
+    width: 100%;
+    max-width:1350px;
+    padding: 30px;
+    margin: auto;
+    
+    
+}
+
+.container3{
+    max-width: 950px;
+    padding: 28px;
+    margin: auto;
+    box-shadow: 0 15px 20px #090909;
+    background-color: #ffffff;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #203232;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding-bottom: 15px;
+    
+}
+
+#inputaddress{
+    padding: 15px 35px;
+    width: 550px;
+    height: 100px;
+}
+
+.input-box:nth-child(2n){
+    justify-content: flex-start;
+}
+
+.input-box label, .gender_title{
+    width: 95%;
+    color: #243232;
+    font-weight: bold;
+    
+}
+
+.gender_title{
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0px 100px;
+    border-radius: 5px;
+    margin: 15px 0;
+    border: 1px solid #656565;
+    outline: none;
+}
+
+.input-box input:is(:focus, :valid){
+    box-shadow: 0 3px 6px rgb(57, 134, 229);
+}
+
+.gender_category label{
+    padding:  30px 10px;
+    font-size: 14px;
+    margin-right: 30px;
+    
+}
+
+
+.gender_category label, .gender_category input{
+    cursor: pointer;
+    
+}
+
+.alert p{
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(106, 103, 103);
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.alert a{
+    text-decoration: none;
+}
+
+.alert a:hover{
+    text-decoration: underline;
+}
+
+.button_container{
+    margin: 15px 2px;
+    
+}
+
+.button_container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #f2f4f8;
+    border: none;
+    border-radius: 20px;
+    background: #4681f4;
+  
+}
+
+#submit:hover{
+    background: #27a43c;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#reset:hover{
+    background: #eb4d4d;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media(max-width:650px){
+    .container2{
+        min-width: 280px;
+    }
+    .content{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+
+    .gender_category{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+}
+
